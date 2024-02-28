@@ -1,0 +1,91 @@
+<html> 
+    <head> 
+        <title> Contact form exercise </title>
+        <style> 
+            body 
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.6;
+                color:#333;
+                background-color:rgb(248,244,244);
+                padding:20px
+            }
+            header
+            {
+                background-color: #007bff;
+                color:#fff;
+                padding:10px 0; 
+                text-align:center;
+                margin:0;
+            }
+
+            nav ul li 
+            {
+                display: inline;
+                margin-right: 20px;
+            }
+            nav a
+            {
+                color:#fff;
+                text-decoration: none;
+
+            }
+            a:hover
+            {
+                color:purple;
+
+            }
+            input[type=submit]
+            {
+                background-color: yellow;
+                color: black;
+                padding: 16px 75px;
+                text-decoration: none;
+                font-size: medium;
+            }
+            input[type=text]
+            {
+                width: 40%;
+            }
+            input[type=date]
+            {
+                width: 40%;
+            }
+        </style>
+    </head>
+    <body>
+       <header> 
+            <h1><center>My Favourite Vacations</center></h1>
+            <nav> 
+                <ul> 
+                    <li><a href="#beach"> Beach </a></li>
+                    <li><a href="#mountain"> Mountain </a></li>
+                    <li><a href="#hiking"> Hiking </a></li>
+                </ul>
+            </nav>
+       </header>
+       <div class="topnva">
+            <a href="index.html"> Home </a>
+            <a href="news.html"> News </a>
+            <a href="contact.html"> Contact </a>
+            <a href="about.html"> About </a>
+       </div>
+       <br>
+       <form method="post">
+        Name:<br><input type="text" id="fname" required placeholder="Enter your name"><br><br>
+        Phone:<br><input type="text" id="phone"><br><br>
+        Email:<br><input type="text" id="email"><br><br>
+        Password:<br><input type="text" id="password"><br><br>
+        Date of Birth: <br><input type="date" id="dateofbirth" placeholder="mm/dd/yyyy">
+       </form>
+       <p> Preferred contact method:</p>
+       <input type="radio" name="choice" id="no1"><label for="no1"> Email </label>
+       <input type="radio" name="choice" id="no2"><label for="no2"> Phone </label><br><br>
+       <input type="submit" id="b01">
+    </body>
+</html>
+
+<!-- finish this homework by Wednesday night 20:30 -->
+<!--password must be more than 8 characters-->
+
+ 
