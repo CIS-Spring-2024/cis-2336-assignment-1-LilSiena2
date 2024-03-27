@@ -2,6 +2,11 @@
 {
     text-align: center;
 }
+#kmain
+{
+    text-align: center;
+    
+}
 .center
 {
     border-radius: 50%;
@@ -39,4 +44,8 @@ div
     text-align: center;
     font-size: medium;
 
+}
+#nav
+{
+    
 }
