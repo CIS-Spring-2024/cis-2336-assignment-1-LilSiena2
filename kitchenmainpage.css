@@ -1,0 +1,42 @@
+#title01 
+{
+    text-align: center;
+}
+.center
+{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+    
+}
+body
+{
+    background-color: rgb(255, 247, 241);
+}
+
+#nextpage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 40px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+    
+}
+#nextpage:hover
+{
+    background-color: rgb(231, 136, 149);
+    color: white;
+}
+
+div
+{
+    text-align: center;
+    font-size: medium;
+
+}
