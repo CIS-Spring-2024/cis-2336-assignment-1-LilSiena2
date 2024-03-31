@@ -1,0 +1,105 @@
+#title01 
+{
+    text-align: center;
+}
+#kmain
+{
+    text-align: center;
+    
+}
+
+.center /* biography picture */
+{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+    
+}
+.biopage
+{
+    background-image:url(images/cooking\ bck.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.centerbutton
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+    
+}
+.centerbutton:hover
+{
+    background-color: rgb(231, 136, 149);
+    color: white;
+}
+/* navigation top menu */
+.nav
+{
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(190, 209, 207);
+    overflow: hidden;
+    float: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover
+{
+    background-color: grey;
+    color:black;
+}
+#p01
+{
+    text-align: center;
+}
+
+/* main page */
+
+body
+{
+    background-color: rgb(255, 247, 241);
+
+}
+#kmain
+{
+    font-size: 50px;
+}
+
+/* Food & Drinks Page */ 
+
+#f01
+{
+    font-size: 50px;
+    text-align: center;
+}
+/*rights 
+.copyrights
+{
+   font-size: small;
+   position: absolute;
+   right: 0%;
+   bottom: 0%;
+} */
+
+
