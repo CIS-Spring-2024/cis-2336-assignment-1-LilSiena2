@@ -7,6 +7,7 @@
     text-align: center;
     
 }
+
 .center /* biography picture */
 {
     border-radius: 50%;
@@ -16,9 +17,12 @@
     width: 20%
     
 }
-body
+.biopage
 {
-    background-color: rgb(255, 247, 241);
+    background-image:url(cooking\ bck.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 .centerbutton
@@ -63,4 +67,11 @@ body
 #p01
 {
     text-align: center;
+}
+
+/* main page */
+body
+{
+    background-color: rgb(255, 247, 241);
+
 }
