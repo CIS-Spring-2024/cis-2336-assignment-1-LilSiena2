@@ -19,7 +19,7 @@
 }
 .biopage
 {
-    background-image:url(cooking\ bck.jpeg);
+    background-image:url(images/cooking\ bck.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -49,6 +49,11 @@
     font-size: medium;
     background-color: rgb(190, 209, 207);
     overflow: hidden;
+    float: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .nav a
 {
@@ -70,8 +75,31 @@
 }
 
 /* main page */
+
 body
 {
     background-color: rgb(255, 247, 241);
 
 }
+#kmain
+{
+    font-size: 50px;
+}
+
+/* Food & Drinks Page */ 
+
+#f01
+{
+    font-size: 50px;
+    text-align: center;
+}
+/*rights 
+.copyrights
+{
+   font-size: small;
+   position: absolute;
+   right: 0%;
+   bottom: 0%;
+} */
+
+
