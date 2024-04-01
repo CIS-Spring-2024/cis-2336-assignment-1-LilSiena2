@@ -1,0 +1,102 @@
+#f03
+{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+body
+{
+    background-color: rgb(255, 247, 241);
+
+}
+.nav
+{
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(190, 209, 207);
+    overflow: hidden;
+    float: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover
+{
+    background-color: grey;
+    color:black;
+}
+
+.form
+{
+    position:absolute;
+    top: 25%;
+    left: 30%;
+}
+legend
+{
+    font-size: 20px;
+}
+#fname
+{
+    width: 60%;
+}
+#lname
+{
+    width: 60%;
+}
+#email
+{
+    width: 60%;
+}
+#number
+{
+    width: 60%;
+}
+#submit
+{
+    display: block;
+    left: 10%;
+    bottom: 10%;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+}
+fieldset
+{
+    border-color: #E78895;
+    border-radius: 8px;
+    width: 160%;
+    height: 200%;
+    fill-opacity: #E78895;
+    padding: 5%;
+}
+.copyrights
+{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}
+
+#uhlogo
+{
+    width:400px;
+    height:100px;
+    position:absolute;
+    top: 50px;
+    right: 250px;
+}
