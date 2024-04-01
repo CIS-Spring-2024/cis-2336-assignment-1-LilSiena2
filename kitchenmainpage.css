@@ -79,11 +79,11 @@ p.content
 }
 #uhlogo
 {
-    width:400px;
-    height:100px;
+    width: 30%;
+    height:20%;
     position:absolute;
-    top: 50px;
-    right: 250px;
+    top: 10%;
+    right: 5%;
 }
 div.polaroid 
 {
