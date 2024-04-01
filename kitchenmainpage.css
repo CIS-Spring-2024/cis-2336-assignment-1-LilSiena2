@@ -44,6 +44,10 @@
 body
 {
     background-color: rgb(255, 247, 241);
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
 
 }
 #kmain
@@ -66,11 +70,36 @@ p.content
 }
 .copyrights
 {
-    position: absolute;
+    position:fixed;
     bottom: 10px;
+    width: 100%;
+    text-align: center;
     font-size: 14px;
     color: black;
     padding: 10px 0;
 }
+#uhlogo
+{
+    width:400px;
+    height:100px;
+    position:absolute;
+    top: 50px;
+    right: 250px;
+}
+div.polaroid 
+{
+    position:absolute;
+    top: 400px;
+    left: 300px;
+    width: 500px;
+    background-color: rgb(190, 209, 207);
+    box-shadow: 2px 2px 2px black;
+    padding:2px 2px 2px;
+  }
+  div.container 
+  {
+    text-align: center;
+    padding: 5px 5px;
+  }
 
 
