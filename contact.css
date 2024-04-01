@@ -83,3 +83,11 @@ fieldset
     fill-opacity: #E78895;
     padding: 5%;
 }
+.copyrights
+{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}

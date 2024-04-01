@@ -47,3 +47,11 @@ h4
     font-style: italic;
     font-size: 25px;
 }
+.copyrights
+{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}
