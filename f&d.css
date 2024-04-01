@@ -44,3 +44,11 @@ body
     color: black;
     padding: 10px 0;
 }
+#uhlogo
+{
+    width:400px;
+    height:100px;
+    position:absolute;
+    top: 50px;
+    right: 250px;
+}
