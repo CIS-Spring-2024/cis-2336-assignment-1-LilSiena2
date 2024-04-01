@@ -46,9 +46,9 @@ body
 }
 #uhlogo
 {
-    width:400px;
-    height:100px;
+    width: 20%;
+    height:10%;
     position:absolute;
-    top: 50px;
-    right: 250px;
+    top: 5%;
+    right: 5%;
 }
