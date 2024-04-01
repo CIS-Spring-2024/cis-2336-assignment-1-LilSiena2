@@ -1,0 +1,49 @@
+.center /* biography picture */
+{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+    
+}
+.biopage
+{
+    background-image:url(images/cooking\ bck.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.centerbutton
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+    
+}
+.centerbutton:hover
+{
+    background-color: rgb(231, 136, 149);
+    color: white;
+}
+.center-justify
+{
+    text-align: center;
+    
+}
+#title01
+{
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}

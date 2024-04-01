@@ -7,41 +7,6 @@
     text-align: center;
     
 }
-
-.center /* biography picture */
-{
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%
-    
-}
-.biopage
-{
-    background-image:url(images/cooking\ bck.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
-
-.centerbutton
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 14px 40px;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    background-color: white;
-    width: 20%;
-    
-}
-.centerbutton:hover
-{
-    background-color: rgb(231, 136, 149);
-    color: white;
-}
 /* navigation top menu */
 .nav
 {
@@ -85,21 +50,27 @@ body
 {
     font-size: 50px;
 }
-
-/* Food & Drinks Page */ 
-
-#f01
+p.mctitle
 {
-    font-size: 50px;
-    text-align: center;
+    position:absolute;
+    top: 180px;
+    left: 150px;
+    font-family: Marker Felt, fantasy;
+    font-size: 40px;
 }
-/*rights 
+p.content
+{
+    position:absolute;
+    top: 280px;
+    left: 200px;
+}
 .copyrights
 {
-   font-size: small;
-   position: absolute;
-   right: 0%;
-   bottom: 0%;
-} */
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}
 
 

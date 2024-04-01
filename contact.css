@@ -36,3 +36,50 @@ body
     background-color: grey;
     color:black;
 }
+
+.form
+{
+    position:absolute;
+    top: 25%;
+    left: 30%;
+}
+legend
+{
+    font-size: 20px;
+}
+#fname
+{
+    width: 60%;
+}
+#lname
+{
+    width: 60%;
+}
+#email
+{
+    width: 60%;
+}
+#number
+{
+    width: 60%;
+}
+#submit
+{
+    display: block;
+    left: 10%;
+    bottom: 10%;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+}
+fieldset
+{
+    border-color: #E78895;
+    border-radius: 8px;
+    width: 160%;
+    height: 200%;
+    fill-opacity: #E78895;
+    padding: 5%;
+}
